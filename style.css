@@ -180,8 +180,6 @@ body {
   }
   
   header {
-    background-color:  #e7e7e7; /* Dark blue background color */
-    color: #D9E2F3; /* Light blue text color */
     padding: 10px;
     display: flex;
     justify-content: space-between;
