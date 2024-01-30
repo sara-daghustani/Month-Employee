@@ -230,7 +230,9 @@ body {
   
   @import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700);
   @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
   figure.snip1253 {
+    border-radius: 5px;
     font-family: "Raleway", Arial, sans-serif;
     color: #fff;
     position: relative;
@@ -245,6 +247,7 @@ body {
     font-size: 16px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   }
+
   figure.snip1253 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -261,12 +264,14 @@ body {
     position: relative;
   }
   figure.snip1253 figcaption {
+    border-radius: 5px;
     margin: -40px 15px 0;
     padding: 15px;
     position: relative;
     background-color: #ffffff;
   }
   figure.snip1253 .date {
+    border-radius: 2px;
     background-color: #161B8B;
     top: 15px;
     color: #fff;
