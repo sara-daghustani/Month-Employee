@@ -29,6 +29,6 @@ function handleAnimationEnd(e, num, idx) {
       finalMessage.classList.add("show");
       element.classList.remove('hide'); // Select a specific element
       confetti.classList.remove('hide'); 
-    }, 1000); // Adjust the delay as needed
+    }, 2000); // Adjust the delay as needed
   }
 }

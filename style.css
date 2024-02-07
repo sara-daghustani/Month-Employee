@@ -253,7 +253,7 @@ body {
     transition: all 0.3s ease;
   }
   figure.snip1253 .image {
-    max-height: 220px;
+    max-height: 255px;
     overflow: hidden;
   }
   figure.snip1253 img {
