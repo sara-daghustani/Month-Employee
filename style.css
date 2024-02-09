@@ -194,9 +194,10 @@ body {
   }
   
   header {
-    padding: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    background-color: whitesmoke;
   }
   
   .logo img {
