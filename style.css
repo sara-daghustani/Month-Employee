@@ -133,15 +133,29 @@
     to {-webkit-transform: translateY(350px);}
 }
 
-body {
+
+  body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     background-color: #f0f0f0; /* Light gray background color */
+    
   }
   
-
+  .card {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 500px) {
+    .card {
+      max-width: 90%;
+    }
+  }
 
 .logo img {
     max-height: 50px;
